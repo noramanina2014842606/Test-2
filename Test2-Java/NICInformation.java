@@ -28,6 +28,14 @@ public class NICInformation
     for (int i = 0; i < mac.length; i++) {
       System.out.format("%02X%s", mac[i], (i < mac.length - 1) ? "-" : "");
     }
+    
+    for (Enumeration<NetworkInterface> en = NetworkInterface.getNetworkInterfaces(); en.hasMoreElements();) {
+    NetworkInterface intf = en.nextElement();
+    for (Enumeration<InetAddress> enumIpAddr = intf.getInetAddresses(); enumIpAddr.hasMoreElements();) {
+        InetAddress inetAddress = enumIpAddr.nextElement();
+        System.out.println(intf.getDisplayName()+" - "+inetAddress.getHostAddress().toString());
+    }
+}
   
   }
         }
