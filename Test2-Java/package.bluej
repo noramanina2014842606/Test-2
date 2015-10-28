@@ -11,9 +11,15 @@ package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
 target1.editor.height=700
+<<<<<<< HEAD
 target1.editor.width=1138
 target1.editor.x=267
 target1.editor.y=132
+=======
+target1.editor.width=900
+target1.editor.x=65
+target1.editor.y=269
+>>>>>>> refs/remotes/origin/Company-B
 target1.height=50
 target1.name=NICInformation
 target1.naviview.expanded=true
@@ -25,14 +31,27 @@ target1.x=70
 target1.y=10
 target2.editor.height=700
 target2.editor.width=900
+<<<<<<< HEAD
 target2.editor.x=283
 target2.editor.y=141
 target2.height=50
 target2.name=CompanyA
+=======
+target2.editor.x=118
+target2.editor.y=166
+target2.height=50
+target2.name=Thread
+>>>>>>> refs/remotes/origin/Company-B
 target2.naviview.expanded=true
 target2.showInterface=false
 target2.type=ClassTarget
 target2.typeParameters=
+<<<<<<< HEAD
 target2.width=90
 target2.x=190
 target2.y=10
+=======
+target2.width=80
+target2.x=70
+target2.y=70
+>>>>>>> refs/remotes/origin/Company-B
